@@ -13,5 +13,5 @@ fi
 git add -A
 git commit -m "$msg"
 
-# Push source and build repos.
+# Push code to master
 git push origin master

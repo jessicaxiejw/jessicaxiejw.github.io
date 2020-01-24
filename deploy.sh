@@ -3,7 +3,7 @@ hugo
 
 # move content of public to root dir
 # then remove public
-mv public/ . && rm -rf public
+cp -R public/ . && rm -rf public
 
 # Commit changes.
 msg="rebuilding site `date`"
